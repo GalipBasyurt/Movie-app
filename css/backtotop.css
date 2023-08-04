@@ -1,0 +1,18 @@
+html {
+  scroll-behavior: smooth;
+}
+.backtotop {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+.backtotop i {
+  color: #ff914d;
+  transition: color 0.6s;
+}
+.backtotop i:hover {
+  color: #ff6200;
+}
+.material-symbols-outlined {
+  font-size: 4rem;
+}

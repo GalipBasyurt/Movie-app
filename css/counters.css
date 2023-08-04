@@ -1,0 +1,15 @@
+.counter {
+  background-color: #1746a2;
+  padding: 30px;
+  text-align: center;
+}
+.counter__item {
+  font-size: 30px;
+  color: white;
+  position: relative;
+  top: 20px;
+}
+.counter h4 {
+  font-size: 24px;
+  color: #ff731d;
+}

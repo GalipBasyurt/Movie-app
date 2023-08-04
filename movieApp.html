@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieApp</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/forms.css" />
+  </head>
+  <body id="body">
+    <header id="main-header">
+      <div class="container">
+        <a class="main-header__logo" href="movieApp.html">MovieApp</a>
+        <nav id="main-nav" class="main-nav">
+          <ul class="main-nav__items">
+            <li class="main-nav__item">
+              <a href="#">Series</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#">Movies</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="btn btn-primary" href="register.html">Login</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#" onclick="displayMenü()">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="showcase">
+        <div class="content">
+          <h2>Welcome</h2>
+          <h3>Watch all Movies once they get released!</h3>
+        </div>
+      </section>
+      <section id="how-it-works">
+        <div class="conteiner">
+          <h2 class="select-title">How it Works?</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea
+            cum fugiat libero nobis, non dolor ipsa porro aspernatur sit!
+          </p>
+          <div class="row">
+            <div class="col-3 icon-box">
+              <span class="material-symbols-outlined"> app_registration </span>
+              <h3>Register</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                illo ullam quidem eos quae ea!
+              </p>
+            </div>
+            <div class="col-3 icon-box">
+              <span class="material-symbols-outlined"> video_call </span>
+              <h3>Choose a plan</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                illo ullam quidem eos quae ea!
+              </p>
+            </div>
+            <div class="col-3 icon-box">
+              <span class="material-symbols-outlined"> mood </span>
+              <h3>Enjoy Movies</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                illo ullam quidem eos quae ea!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="features">
+        <div class="row">
+          <div class="col-2 left-features"></div>
+          <div class="col-2 right-features">
+            <h2>Watch all Movies once they get released!</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima,
+              nihil, alias sint veritatis ipsum quis iste in, placeat recusandae
+              ducimus non sed? Ratione, similique eveniet! Dignissimos a at
+              quaerat sed!
+            </p>
+            <button class="btn btn-secondary">Wiev features</button>
+          </div>
+        </div>
+      </section>
+      <section id="plans">
+        <h2 class="select-title">Become a Premium Member</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-3 plan">
+              <div class="inner-plan">
+                <h3>Free</h3>
+                <h4>0/month</h4>
+                <ul class="plan-features">
+                  <li>HD available</li>
+                  <li>Unlimited Movies and TV shows</li>
+                  <li>Watch on your phone & tablet</li>
+                  <li>Download and watch offline</li>
+                  <li>Screens you can watch</li>
+                  <li>First Month Free</li>
+                </ul>
+                <br />
+                <button class="btn btn-secondary">Choose Plan</button>
+              </div>
+            </div>
+            <div class="col-3 plan plan--featured">
+              <div class="inner-plan plan-Recommended">
+                <h3 class="plan-badge">Recommended</h3>
+                <h3>Free</h3>
+                <h4>0/month</h4>
+                <ul class="plan-features">
+                  <li>HD available</li>
+                  <li>Unlimited Movies and TV shows</li>
+                  <li>Watch on your phone & tablet</li>
+                  <li>Download and watch offline</li>
+                  <li>Screens you can watch</li>
+                  <li>First Month Free</li>
+                </ul>
+                <br />
+                <button class="btn btn-primary">Choose Plan</button>
+              </div>
+            </div>
+            <div class="col-3 plan">
+              <div class="inner-plan">
+                <h3>Free</h3>
+                <h4>0/month</h4>
+                <ul class="plan-features">
+                  <li>HD available</li>
+                  <li>Unlimited Movies and TV shows</li>
+                  <li>Watch on your phone & tablet</li>
+                  <li>Download and watch offline</li>
+                  <li>Screens you can watch</li>
+                  <li>First Month Free</li>
+                </ul>
+                <br />
+                <button class="btn btn-secondary">Choose Plan</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br /><br />
+      <section id="counters">
+        <div class="row counter">
+          <div class="col-3">
+            <span class="counter__item">976</span>
+            <h4>Movies</h4>
+          </div>
+          <div class="col-3">
+            <span class="counter__item">462</span>
+            <h4>Series</h4>
+          </div>
+          <div class="col-3">
+            <span class="counter__item">971</span>
+            <h4>Users</h4>
+          </div>
+        </div>
+      </section>
+      <br /><br />
+      <section id="movies">
+        <h2 class="select-title">Popular Movies</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-3 card-container">
+              <div class="card">
+                <img
+                  class="card-image img-fluid"
+                  src="img/klondike.jpg"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h2>Klondike</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi officia obcaecati, beatae cupiditate quis natus.
+                  </p>
+                  <p><button class="btn btn-primary">Details</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 card-container">
+              <div class="card">
+                <img
+                  class="card-image img-fluid"
+                  src="img/kurak-günler.jpg"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h2>Kurak Günler</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi officia obcaecati, beatae cupiditate quis natus.
+                  </p>
+                  <p><button class="btn btn-primary">Details</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 card-container">
+              <div class="card">
+                <img class="card-image img-fluid" src="img/emily.jpg" alt="" />
+                <div class="card-body">
+                  <h2>Emily</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi officia obcaecati, beatae cupiditate quis natus.
+                  </p>
+                  <p><button class="btn btn-primary">Details</button></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="Series">
+        <h2 class="select-title">Popular Series</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-3 card-container">
+              <div class="card">
+                <img class="card-image img-fluid" src="img/1899.jpg" alt="" />
+                <div class="card-body">
+                  <h2>1899</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi officia obcaecati, beatae cupiditate quis natus.
+                  </p>
+                  <p><button class="btn btn-primary">Details</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 card-container">
+              <div class="card">
+                <img
+                  class="card-image img-fluid"
+                  src="img/sicak-kafa.jpg"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h2>Sıcak Kafa</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi officia obcaecati, beatae cupiditate quis natus.
+                  </p>
+                  <p><button class="btn btn-primary">Details</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 card-container">
+              <div class="card">
+                <img
+                  class="card-image img-fluid"
+                  src="img/wednesday.jpg"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h2>wednesday</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi officia obcaecati, beatae cupiditate quis natus.
+                  </p>
+                  <p><button class="btn btn-primary">Details</button></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="row"></div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <ul class="footer-links">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Forum</a></li>
+              <li><a href="#">Content</a></li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <ul class="social-links">
+              <li>
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+              </li>
+              <li>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </li>
+              <li>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a class="backtotop" href="#body">
+      <i><span class="material-symbols-outlined"> arrow_upward </span></i>
+    </a>
+
+    <script>
+      function displayMenü() {
+        var link = document.getElementById("main-nav");
+        link.classList.toggle("mobil");
+      }
+    </script>
+  </body>
+</html>

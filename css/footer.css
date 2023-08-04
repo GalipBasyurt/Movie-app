@@ -1,0 +1,44 @@
+footer {
+  background-color: #1746a2;
+  padding: 30px;
+  position: relative;
+  bottom: -100px;
+}
+footer a,
+i {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+footer ul {
+  margin: 0px;
+  padding: 0px;
+}
+footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 8px;
+}
+.social-links {
+  text-align: right;
+}
+.fa {
+  font-size: 24px;
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+}
+.fa:hover {
+  opacity: 0.6;
+}
+.fa-facebook-official {
+  background-color: #3b5998;
+  color: white;
+}
+.fa-twitter {
+  background-color: #08a0e9;
+  color: white;
+}
+.fa-instagram {
+  background-color: #dd2a7b;
+}

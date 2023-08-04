@@ -1,0 +1,52 @@
+#showcase {
+  background: url(../img/la-la-land.jpg);
+  background-position: bottom right;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  padding: 20px;
+
+  position: relative;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-20%, -60%);
+  color: white;
+  background: rgba(153, 158, 178, 0.1);
+  padding: 2rem;
+  width: 60%;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  #showcase {
+    height: 65vh;
+  }
+}
+
+@media (min-width: 768px) {
+  #showcase {
+    height: 80vh;
+  }
+}
+
+@media (min-width: 992px) {
+  #showcase {
+    height: 90vh;
+  }
+}
+@media (min-width: 1200px) {
+  #showcase {
+    height: 100vh;
+    background-attachment: fixed;
+  }
+}
+@media (min-width: 1400px) {
+  #showcase {
+    height: 100vh;
+    background-attachment: fixed;
+  }
+}

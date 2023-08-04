@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,700&display=swap");
+@import url("button.css");
+@import url("showcase.css");
+@import url("how-it-works.css");
+@import url("navbar.css");
+@import url("features.css");
+@import url("plans.css");
+@import url("backtotop.css");
+@import url("counters.css");
+@import url("movies.css");
+@import url("footer.css");
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.4rem;
+  margin: 0px;
+  font-family: "Times New Roman", Times, serif;
+}
+.main {
+  margin-top: 4rem;
+}
+
+.container {
+  width: 100%;
+  padding-left: 10px;
+  padding-left: 10px;
+}
+.row {
+  margin-top: 3rem;
+}
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.col-2 {
+  width: 50%;
+  float: left;
+}
+.col-3 {
+  width: 33%;
+  float: left;
+}
+.col-4 {
+  width: 25%;
+  float: left;
+}
+@media (max-width: 768px) {
+  .col-2,
+  .col-3,
+  .col-4 {
+    width: 100%;
+  }
+}
+.select-title {
+  text-align: center;
+  color: #ff731d;
+  font-size: 30px;
+}
+.img-fluid {
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+    margin: 0 auto;
+  }
+  html {
+    font-size: 68%;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 740px;
+    margin: 0 auto;
+  }
+  html {
+    font-size: 73%;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 940px;
+    margin: 0 auto;
+  }
+  html {
+    font-size: 78%;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  html {
+    font-size: 82%;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1100px;
+    margin: 0 auto;
+  }
+  html {
+    font-size: 88%;
+  }
+}
